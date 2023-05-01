@@ -1,0 +1,139 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sec1 {
+    flex-wrap: wrap;
+    background-color: rgba(26, 26, 196, 0.782);
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    background-color: black;
+    width: 13%;
+    height: 38px;
+}
+
+.right {
+    display: flex;
+}
+
+.right a {
+    background-color: black;
+    border-radius: 57%;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.sec2 {
+    background-color: grey;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left2 {
+    background-color: blue;
+    width: 26%;
+    height: 100px;
+}
+
+.right2 {
+    background-color: blue;
+    border-radius: 50%;
+    width: 15%;
+    height: 68%;
+}
+
+.sec3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.top,
+.bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+
+
+.div1,
+.div3,
+.div4,
+.div2,
+.div5,
+.div6,
+.div7,
+.div8 {
+    background-color: aqua;
+    width: 10%;
+    height: 164px;
+    border-radius: 3%;
+}
+
+.div2 {
+    background-color: white;
+}
+
+
+.sec4 {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div9 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: lightblue;
+    color: white;
+    text-align: center;
+    width: 85%;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.div10 {
+    background: blue;
+    width: 6%;
+    height: 87px;
+    position: absolute;
+    border-radius: 50%;
+    right: 59px;
+    bottom: 64px;
+}
+
+.div10 p {
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 14px;
+    bottom: -33px;
+}
